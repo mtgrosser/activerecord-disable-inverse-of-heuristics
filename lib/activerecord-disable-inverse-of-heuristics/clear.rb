@@ -1,0 +1,2 @@
+ActiveRecord::Reflection::AssociationReflection::VALID_AUTOMATIC_INVERSE_MACROS.clear
+ActiveRecord::Reflection::AssociationReflection::VALID_AUTOMATIC_INVERSE_MACROS.freeze
