@@ -27,7 +27,7 @@ require 'byebug'
 require 'active_support/testing/autorun'
 require 'active_support/test_case'
 
-require 'activerecord-disable-inverse-of-heuristics'
+#require 'activerecord-disable-inverse-of-heuristics'
 require 'active_record'
 
 ActiveRecord::Base.establish_connection(:adapter => 'sqlite3', :database => ':memory:')

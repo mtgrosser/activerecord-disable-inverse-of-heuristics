@@ -14,6 +14,7 @@ class InverseOfTest < ActiveSupport::TestCase
     make = Make.first!
     car_make_object_ids = make.cars.to_a.map(&:make).map(&:object_id)
     assert_equal 2, car_make_object_ids.uniq.size
+    assert_equal false, car_make_object_ids.include?(make.object_id)
   end
 
 end
