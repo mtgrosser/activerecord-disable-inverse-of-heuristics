@@ -6,7 +6,7 @@ require "activerecord-disable-inverse-of-heuristics/version"
 Gem::Specification.new do |s|
   s.name          = 'activerecord-disable-inverse-of-heuristics'
   s.version       = ActiveRecordDisableInverseOfHeuristics::VERSION
-  s.date          = '2016-10-17'
+  s.date          = '2019-08-20'
   s.summary       = 'Stop ActiveRecord from guessing inverse_of associations'
   s.description   = 'In complex applications, there is no place for guessing'
   s.authors       = ['Matthias Grosser']
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.licenses      = ["MIT"]
   s.required_ruby_version = '>= 2.1.0'
   
-  s.add_runtime_dependency 'activerecord', '>= 4.1'
+  s.add_runtime_dependency 'activerecord', '~> 6.0.0'
   
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'simplecov'
