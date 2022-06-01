@@ -1,3 +1,6 @@
+[![Gem Version](https://badge.fury.io/rb/activerecord-disable-inverse-of-heuristics.png)](http://badge.fury.io/rb/activerecord-disable-inverse-of-heuristics)
+[![build](https://github.com/mtgrosser/activerecord-disable-inverse-of-heuristics/actions/workflows/build.yml/badge.svg)](https://github.com/mtgrosser/activerecord-disable-inverse-of-heuristics/actions/workflows/build.yml)
+
 activerecord-disable-inverse-of-heuristics
 ==========================================
 
