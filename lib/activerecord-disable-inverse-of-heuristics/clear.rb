@@ -1,2 +1,8 @@
-ActiveRecord::Reflection::AssociationReflection::VALID_AUTOMATIC_INVERSE_MACROS.clear
-ActiveRecord::Reflection::AssociationReflection::VALID_AUTOMATIC_INVERSE_MACROS.freeze
+module ActiveRecordDisableInverseOfHeuristics
+  module NoAutomaticInverseOf
+    private
+    def automatic_inverse_of; end
+  end
+end
+
+ActiveRecord::Reflection::AssociationReflection.prepend ActiveRecordDisableInverseOfHeuristics::NoAutomaticInverseOf

@@ -1,8 +1,6 @@
 require 'active_support'
 
-require 'activerecord-disable-inverse-of-heuristics/version'
-
-module ActiveRecordDisableInverseOfHeuristics; end
+require_relative 'activerecord-disable-inverse-of-heuristics/version'
 
 if defined? Rails
   class ActiveRecordDisableInverseOfHeuristics::Railtie < Rails::Railtie
