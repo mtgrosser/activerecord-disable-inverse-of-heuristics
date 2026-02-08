@@ -6,5 +6,4 @@ gemspec
 gem 'sqlite3'
 gem 'simplecov'
 gem 'rake'
-gem 'byebug'
-gem 'minitest'
+gem 'minitest', '~> 5.0'
